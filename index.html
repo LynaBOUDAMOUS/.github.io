@@ -26,8 +26,8 @@
         }
         header img {
             border-radius: 50%;
-            width: 120px;  /* Augmentation de la taille de l'image */
-            height: 120px; /* Augmentation de la taille de l'image */
+            width: 120px; /* Agrandir la photo */
+            height: 120px; /* Agrandir la photo */
             object-fit: cover;
             margin-bottom: 10px;
             position: absolute;
@@ -39,8 +39,11 @@
             background-color: rgba(255, 255, 255, 0.7); /* Fond semi-transparent pour une meilleure lisibilité */
             padding: 20px;
             border-radius: 8px;
+            width: 60%; /* Ajuste la largeur du texte */
         }
         header h1 {
+            font-weight: bold; /* Le nom en gras */
+            font-size: 32px; /* Taille plus grande pour le nom */
             margin-bottom: 10px;
         }
         header p {
@@ -103,12 +106,12 @@
 </head>
 <body>
     <header>
-        <img src="https://raw.githubusercontent.com/LynaBOUDAMOUS/Lyna-git.github.io/refs/heads/main/Boudamous%20_lyna_photo.jpg" alt="Photo de Lyna">
         <div class="content">
-            <!-- Ajout du nom et prénom avant le texte de bienvenue -->
+            <!-- Ajout du nom et prénom en gras en début -->
             <h1>Lyna Boudamous</h1>
-            <h2>Bienvenue sur mon site web !</h2>
-            <p>Je vous invite à consulter les projets que j'ai réalisés au cours de mon parcours universitaire.</p>
+            <p>Bienvenue sur mon site web! Je vous invite à consulter les projets que j'ai réalisés au cours de mon parcours universitaire.</p>
+            
+            <!-- Mes coordonnées -->
             <div class="contact-info">
                 <p><i class="fas fa-envelope"></i> <a href="mailto:boudamous.lyna@gmail.com">boudamous.lyna@gmail.com</a></p>
                 <p><i class="fas fa-phone-alt"></i> <a href="tel:+33751273185">+33 7 51 27 31 85</a></p>
@@ -134,7 +137,7 @@
                     </ul>
                     <a href="https://www.data.gouv.fr/fr/users/lyna-boudamos/" target="_blank">Voir le projet sur Data.gouv.fr - Réutilisations</a>
                 </li>
-                <!-- Ajoutez ici les autres projets -->
+                <!-- Les autres projets restent inchangés -->
             </ul>
         </section>
     </main>
