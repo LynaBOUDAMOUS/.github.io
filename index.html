@@ -13,10 +13,14 @@
             color: #333;
         }
         header {
-            background-color: #007bff;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
+            background-color: #f4f4f9; /* Le beige pâle comme fond */
+            color: #333;
+            padding: 40px 20px;
+            text-align: left;
+            background-image: url('https://lynaboudamous.github.io/Lyna-git.github.io/image.webp'); /* Ajoute ton image de fond */
+            background-size: cover;
+            background-position: center;
+            position: relative;
         }
         header img {
             border-radius: 50%;
@@ -24,6 +28,24 @@
             height: 100px;
             object-fit: cover;
             margin-bottom: 10px;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+        header h1 {
+            margin-left: 140px; /* Décale le titre à droite de la photo */
+        }
+        header p {
+            margin-left: 140px; /* Décale les informations à droite de la photo */
+        }
+        header a {
+            margin-left: 140px;
+            color: #007bff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        header a:hover {
+            text-decoration: underline;
         }
         main {
             padding: 20px;
@@ -72,6 +94,8 @@
         <p>Email: boudamous.lyna@gmail.com</p> <!-- Remplace par ton email -->
         <p>Téléphone: +33 7 51 27 31 85</p> <!-- Remplace par ton numéro -->
         <a href="https://lynaboudamous.github.io/Lyna-git.github.io/CV_Lyna_BOUDAMOUS.pdf" target="_blank">Télécharger mon CV</a> <!-- Remplace par ton lien de CV -->
+        <br><br>
+        <a href="https://www.linkedin.com/in/ton-profil-linkedin" target="_blank">Voir mon profil LinkedIn</a>
     </header>
     <main>
         <!-- Section Projets -->
@@ -80,56 +104,22 @@
             <ul>
                 <li>
                     <h3>Projet 1 : L'analyse de l'offre culturelle en France</h3>
-                    <p>s tDans le cadre du challenge Open Data University, nous avons développé un dashboard interactif pour visualiser l'offre culturelle en France. La base de données contient 22 059 observations et 16 variables que nous avons nettoyées et préparées.
-                       
-                        Tâches réalisées :
-                        
-                        Nettoyage des données (erreurs, valeurs manquantes)
-                        
-                        Création du dashboard : visualisation de la répartition géographique des équipements culturels et des inégalités d’accès à la culture.
-                        
-                        Objectif : Offrir une meilleure visibilité des équipements culturels et aider les collectivités territoriales à optimiser leurs stratégies d'aménagement culturel..</p>
+                    <p>Dans le cadre du challenge Open Data University, nous avons développé un dashboard interactif pour visualiser l'offre culturelle en France...</p>
                     <a href="https://www.data.gouv.fr/fr/users/lyna-boudamos/" target="_blank">Voir le projet sur Data.gouv.fr - Réutilisations</a>
                 </li>
                 <li>
                     <h3>Projet 2 : Croissance Économique en Afrique - Le rôle des Investissements Directs Étrangers</h3>
-                    <p>Analyse de l'impact des investissements directs étrangers (IDE) sur la croissance économique en Afrique, à partir d'un panel de 736 observations et 10 variables couvrant 32 pays entre 2000-2022.
-
-                     Tâches effectuées :
-
-                     Nettoyage des données : Correction des anomalies et des valeurs manquantes.
-                     
-                        Modèles économétriques : Effets fixes, effets aléatoires, et régression globale.
-                        
-                        Tests économétriques : Test de Hausman pour choisir le modèle optimal.</p>
+                    <p>Analyse de l'impact des investissements directs étrangers (IDE) sur la croissance économique en Afrique...</p>
                     <a href="https://lynaboudamous.github.io/Lyna-git.github.io/Croissance%20%C3%89conomique%20en%20Afrique%20.html" target="_blank">Voir le projet sur GitHub</a>
                 </li>
                 <li>
                     <h3>Projet 3 : Segmentation des départements français selon leur offre culturelle</h3>
-                    <p> Cette étude analyse les disparités de l’offre culturelle en France à travers ses départements, en tenant compte des facteurs socio-économiques influençant l’accès à la culture, tels que le niveau de revenu, le taux de chômage, et la répartition urbaine/rurale.
-
-                      Tâches effectuées :
-
-                     Construction de la base de données : Intégration de variables socio-économiques pour caractériser les départements.
-                     
-                    Nettoyage des données : Élimination des valeurs manquantes et incohérentes pour garantir la fiabilité des résultats.
-                    
-                        Analyse des données :
-                        
-                        ACP : Réduction de la dimensionnalité et identification des principaux facteurs explicatifs de la variabilité.
-                        
-                        ACM : Exploration des relations entre les variables qualitatives.
-
-                        Clustering : Classification des départements en groupes selon leurs profils culturels et socio-économiques.
-
-                        La base de données contient 100 observations et 6 variables.</p>
+                    <p>Cette étude analyse les disparités de l’offre culturelle en France à travers ses départements...</p>
                     <a href="https://lynaboudamous.github.io/Lyna-git.github.io/Segmentation%20des%20d%C3%A9partements%20fran%C3%A7ais%20selon%20leur%20offre%20culturelle%20et%20leur%20contexte%20socio-%C3%A9conomiques.pdf" target="_blank">Voir le projet sur GitHub</a>
                 </li>
                 <li>
                     <h3>Projet 4 : Culture Générale</h3>
-                    <p> Ce projet a pour objectif d'analyser le niveau de culture générale des étudiants de l'Université de Tours en fonction de divers facteurs, tels que le genre, le niveau d'études et le temps de travail personnel...ect. L'étude explore comment ces facteurs influencent la perception des étudiants sur leur culture générale et identifie des tendances ou des différences significatives entre les groupes d’étudiants.
-
-                     l'analyse repose sur une enquête auprès de 208 étudiants de L1, L2 et L3, avec un questionnaire de 40 questions sur des sujets de culture générale. Après avoir nettoyé les données pour supprimer les réponses incomplètes ou incorrectes, nous avons créé plusieurs graphiques (interactifs et non interactifs) pour visualiser et analyser les résultats. Ces graphiques ont permis de mieux comprendre les relations entre les variables et d’observer des tendances clés dans les réponses des étudiants.</p>
+                    <p>Ce projet a pour objectif d'analyser le niveau de culture générale des étudiants de l'Université de Tours...</p>
                     <a href="https://lynaboudamous.github.io/Lyna-git.github.io/culture_g%C3%A9n%C3%A9ral.html" target="_blank">Voir le projet sur GitHub</a>
                 </li>
             </ul>
