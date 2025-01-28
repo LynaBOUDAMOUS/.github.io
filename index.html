@@ -18,9 +18,43 @@
             padding: 20px 0;
             text-align: center;
         }
+        header img {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 10px;
+        }
         main {
             padding: 20px;
-            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #007bff;
+        }
+        .projects ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .projects li {
+            margin: 10px 0;
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        .projects a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .projects a:hover {
+            text-decoration: underline;
         }
         footer {
             background-color: #333;
@@ -32,11 +66,40 @@
 </head>
 <body>
     <header>
+        <img src="file:///C:/Users/lynou/OneDrive/Desktop/mes%20documents/Boudamous%20_lyna_photo.pdf" alt="Photo de Lyna"> <!-- Remplace par ton URL de photo -->
         <h1>Bienvenue sur mon site web</h1>
-        <p>Un Lyna BOUDAMOUS </p>
+        <p>Par Lyna BOUDAMOUS</p>
+        <p>Email: boudamous.lyna@gmail.com</p> <!-- Remplace par ton email -->
+        <p>Téléphone: +33 7 51 27 31 85</p> <!-- Remplace par ton numéro -->
+        <a href="file:///C:/Users/lynou/OneDrive/Desktop/cv/CV_Lyna_BOUDAMOUS.pdf" target="_blank">Télécharger mon CV</a> <!-- Remplace par ton lien de CV -->
     </header>
     <main>
-        <p> Je vous invite à consulter les projets que j'ai réalisés au cours de mon parcours universitaire! </p>
+        <!-- Section Projets -->
+        <section class="projects">
+            <h2>Mes Projets</h2>
+            <ul>
+                <li>
+                    <h3>Projet 1 : L'analyse de l'offre culturelle en France</h3>
+                    <p>Analyse complète des tendances dans le secteur alimentaire.</p>
+                    <a href="https://www.data.gouv.fr/fr/users/lyna-boudamos/" target="_blank">Voir le projet sur Data.gouv.fr - Réutilisations</a>
+                </li>
+                <li>
+                    <h3>Projet 2 : Croissance Économique en Afrique - Le rôle des Investissements Directs Étrangers</h3>
+                    <p>Développement d'un business plan pour une startup technologique.</p>
+                    <a href="https://lynaboudamous.github.io/Lyna-git.github.io/Croissance%20%C3%89conomique%20en%20Afrique%20.html" target="_blank">Voir le projet sur GitHub</a>
+                </li>
+                <li>
+                    <h3>Projet 3 : Segmentation des départements français selon leur offre culturelle</h3>
+                    <p>Analyse approfondie des politiques économiques en Europe.</p>
+                    <a href="https://lynaboudamous.github.io/Lyna-git.github.io/Segmentation%20des%20d%C3%A9partements%20fran%C3%A7ais%20selon%20leur%20offre%20culturelle%20et%20leur%20contexte%20socio-%C3%A9conomiques.pdf" target="_blank">Voir le projet sur GitHub</a>
+                </li>
+                <li>
+                    <h3>Projet 4 : Culture Générale</h3>
+                    <p>Analyse approfondie des politiques économiques en Europe.</p>
+                    <a href="https://lynaboudamous.github.io/Lyna-git.github.io/culture_g%C3%A9n%C3%A9ral.html" target="_blank">Voir le projet sur GitHub</a>
+                </li>
+            </ul>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Lyna - Tous droits réservés</p>
